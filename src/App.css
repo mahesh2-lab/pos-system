@@ -1,0 +1,148 @@
+/* General container styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh; /* Ensure full height of the viewport */
+  overflow: hidden; /* Prevent scrollbars */
+  background-color: #f0f0f0; /* Background color for the entire app */
+  font-family: Arial, sans-serif; /* Set a generic font */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Header styling */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Content styling */
+.content {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  max-width: 1200px; /* Max width for content */
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+/* Left column styling */
+.left-column {
+  flex: 3;
+  padding: 20px;
+  background-color: #ffffff; /* Background color for left column */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+/* Right column styling */
+.right-column {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff; /* Background color for right column */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+/* Checkout container styling */
+.checkout-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.checkout-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.checkout-container div {
+  margin-bottom: 10px;
+}
+
+.checkout-container hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.checkout-container p {
+  margin: 5px 0;
+}
+
+.checkout-container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.checkout-container button:hover {
+  background-color: #45a049;
+}
+
+/* Bill section styling */
+.bill-section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.bill-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.bill-section hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.bill-section .items-list {
+  margin-bottom: 20px;
+}
+
+.bill-section .item {
+  margin-bottom: 10px;
+}
+
+.bill-section .item p {
+  margin: 5px 0;
+}
+
+.bill-section .total-amount {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.bill-section .reset-button {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.bill-section .reset-button:hover {
+  background-color: #cc0000;
+}
